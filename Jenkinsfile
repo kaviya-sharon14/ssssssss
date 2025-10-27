@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo '📦 Fetching frontend + backend code from GitHub...'
                 deleteDir()
-                git branch: 'main', url: 'https://github.com/kaviya-sharon14/onlyfrontend.git'
+                git branch: 'main', url: 'https://github.com/kaviya-sharon14/ssssssss.git'
             }
         }
 
@@ -26,7 +26,7 @@ pipeline {
             steps {
                 echo '🚀 Starting Flask app (backend + frontend combined)...'
                 bat '''
-                start /B venv\\Scripts\\python app.py
+                start /B venv\\Scripts\\python login.html
                 '''
             }
         }
